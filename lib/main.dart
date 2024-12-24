@@ -3,6 +3,7 @@ import 'package:flutter_all_animation/Opacity_animation/opacity_animation_screen
 import 'package:flutter_all_animation/align_animation/align_animation_screen.dart';
 import 'package:flutter_all_animation/cross_fade_animation/cross_fade_animation_screen.dart';
 import 'package:flutter_all_animation/grid_animation/grid_animation_screen.dart';
+import 'package:flutter_all_animation/hero_animation/hero_animation_screen_first.dart';
 import 'package:flutter_all_animation/icon_animation/icon_animation_screen.dart';
 import 'package:flutter_all_animation/rotate_animation/rotate_animation_screen.dart';
 import 'package:flutter_all_animation/scale_animation/scale_animation_screen.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ScaleAnimationScreen(),
+      home: HeroAnimationScreenFirst(),
     );
   }
 }
