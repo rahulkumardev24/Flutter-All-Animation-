@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_all_animation/Opacity_animation/opacity_animation_screen.dart';
+import 'package:flutter_all_animation/align_animation/align_animation_screen.dart';
+import 'package:flutter_all_animation/rotate_animation/rotate_animation_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: OpacityAnimationScreen(),
+      home: AlignAnimationScreen(),
     );
   }
 }
