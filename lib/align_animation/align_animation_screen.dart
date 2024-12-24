@@ -42,7 +42,7 @@ class _AlignAnimationScreenState extends State<AlignAnimationScreen> {
               child: ElevatedButton(
                   onPressed: () {
                     setState(() {
-                      isRightAlign = !isRightAlign ;
+                      isRightAlign = !isRightAlign;
                     });
                   },
                   style: ElevatedButton.styleFrom(
