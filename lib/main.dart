@@ -5,6 +5,7 @@ import 'package:flutter_all_animation/cross_fade_animation/cross_fade_animation_
 import 'package:flutter_all_animation/grid_animation/grid_animation_screen.dart';
 import 'package:flutter_all_animation/icon_animation/icon_animation_screen.dart';
 import 'package:flutter_all_animation/rotate_animation/rotate_animation_screen.dart';
+import 'package:flutter_all_animation/scale_animation/scale_animation_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: IconAnimationScreen(),
+      home: ScaleAnimationScreen(),
     );
   }
 }
