@@ -24,8 +24,8 @@ class _RotateAnimationScreenState extends State<RotateAnimationScreen> {
               turns: numRotate,
               duration: const Duration(seconds: 8),
               child: Container(
-                height: 300,
-                width: 300,
+                height: 280,
+                width: 280,
                 decoration: BoxDecoration(
                   color: Colors.greenAccent,
                   borderRadius: BorderRadius.circular(10),
@@ -33,7 +33,7 @@ class _RotateAnimationScreenState extends State<RotateAnimationScreen> {
               ),
             ),
             const SizedBox(
-              height: 20,
+              height: 70,
             ),
             SizedBox(
               width: 300,
