@@ -17,7 +17,7 @@ class _LottieAnimationScreenState extends State<LottieAnimationScreen> {
       ),
       body: Center(
         child: Lottie.asset("assets/lottie/Animation - 1735470791197.json",
-            height: 300, width: 300 ,fit: BoxFit.cover),
+            height: 300, width: 300 ,fit: BoxFit.contain),
       ),
     );
   }
