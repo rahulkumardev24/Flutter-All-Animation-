@@ -1,0 +1,2 @@
+C:/FLUTTER PROJECT/FLUTTER COURSE/flutter_all_animation/android/app/.cxx/Debug/5y563g5g/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/FLUTTER PROJECT/FLUTTER COURSE/flutter_all_animation/android/app/.cxx/Debug/5y563g5g/armeabi-v7a/CMakeFiles/rebuild_cache.dir
