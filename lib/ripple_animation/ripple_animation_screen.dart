@@ -9,7 +9,7 @@ class RippleAnimationScreen extends StatefulWidget {
 
 class _RippleAnimationScreenState extends State<RippleAnimationScreen>
     with SingleTickerProviderStateMixin {
-  late AnimationController animationController;
+      late AnimationController animationController;
   var radiusList = [150.0, 200.0, 250.0, 300.0, 350.0];
 
   @override

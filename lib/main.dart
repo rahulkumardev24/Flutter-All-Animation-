@@ -15,6 +15,8 @@ import 'package:flutter_all_animation/icon_animation/icon_animation_screen.dart'
 import 'package:flutter_all_animation/ripple_animation/ripple_animation_screen.dart';
 import 'package:flutter_all_animation/rotate_animation/rotate_animation_screen.dart';
 import 'package:flutter_all_animation/scale_animation/scale_animation_screen.dart';
+import 'package:flutter_all_animation/shimmer_animation/shimmer_loading_screen.dart';
+import 'package:flutter_all_animation/shimmer_animation/trending_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,8 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: RippleAnimationScreen(),
+      home: ShimmerLoadingScreen(),
     );
   }
 }
-
