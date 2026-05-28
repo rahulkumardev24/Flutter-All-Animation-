@@ -38,6 +38,7 @@ dependencies:
 #  USE THIS DEPENDENCY
   lottie: ^3.2.0
   shimmer: ^3.0.0
+  haptic_kit: ^1.0.0
 
 dev_dependencies:
   flutter_test:
